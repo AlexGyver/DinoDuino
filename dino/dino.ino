@@ -135,6 +135,7 @@ void loop() {
     }
   }
 
+// если проиграли, пнуть игру автоматически
 #if (USE_KEYBOARD == 1)
   if (timeoutTimer.isReady()) {    
     Keyboard.press(KEY_UP_ARROW);
